@@ -31,6 +31,13 @@ public class Vector_03 {
            //Guardamos en el vector longitudes en la posicion x la longitud del nombre
            //length() nos devuelve la longitud de la variable
            longitudes [x] = nombre.length();
+           /*
+           Tambien prodriamos hacerlo de manera directa sin la variable nombre,
+           longitudes [x] = temp.nextLine().length();
+           temp la variable Scanner de ingreso por teclado
+           nextLine() para decirle al programa que la siguinte linea es un String
+           length() que toma la variable de tipo string y me da su longitud/tamaño/numero de caracteres que tiene
+           */
         }
         //Imprimimos el vector longitudes
         System.out.println("Longitudes: ");
