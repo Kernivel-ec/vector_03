@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Roberto Calero
+ * @author ING. Roberto Calero
  */
     /*
     Realice un programa que solicite 10 nombres ingresados por teclado y que
